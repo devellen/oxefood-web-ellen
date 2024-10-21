@@ -3,6 +3,7 @@ import { Button, Container, Divider, Form, Icon, Radio } from 'semantic-ui-react
 import InputMask from 'react-input-mask';
 
 export default function FormEntregador() {
+
     return (
         <div>
             <div style={{ marginTop: '3%' }}>
