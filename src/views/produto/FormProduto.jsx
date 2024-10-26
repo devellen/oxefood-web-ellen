@@ -24,10 +24,10 @@ export default function FormProduto() {
 
         axios.post("http://localhost:8080/api/produto", produtoRequest)
             .then((response) => {
-                console.log('Cliente cadastrado com sucesso.')
+                console.log('Produto cadastrado com sucesso.')
             })
             .catch((error) => {
-                console.log('Erro ao incluir o um cliente.')
+                console.log('Erro ao incluir o um produto.')
             })
     }
 
